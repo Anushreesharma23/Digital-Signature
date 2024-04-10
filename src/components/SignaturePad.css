@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    padding: 1rem;
+    background: radial-gradient(rgb(255, 255, 255),rgb(5, 98, 191), rgb(3, 61, 155));
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+  
+.img1 {
+    margin-right: 20px;
+    height: 50px;
+    width: 70px;
+    margin-top: 0;
+}
+  
+h1{
+    text-size-adjust: 2.5rem;
+    color: #ffffff;
+    margin-top: 0;
+    padding-top:25px;
+    margin-left: 5px;
+
+}
+
+p{
+    color: #fff8f8;
+    text-size-adjust: 1.2rem;
+}
+
+.signature-pad-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.signature-pad {
+    cursor: pointer;
+    border: 2px solid rgb(7, 10, 192);
+    border-radius: 10px;
+}
+.canvas-draw {
+    background-color: white;
+    border: 2px solid black; /* Set black border */
+    cursor: pointer;
+  }
+  
+
+.clear-button {
+    color: rgb(0, 0, 0);
+    border: 0.01rem solid rgb(2, 2, 118);
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 0rem 0.3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 0;
+    height: 3rem;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.clear-button:hover {
+    background-color: rgb(43, 43, 134); 
+    color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.submit-button {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 0.01rem solid rgb(2, 2, 118);
+    padding: 0.5rem 1rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    height: 3rem;
+    margin-bottom: 0;
+    margin-left: 0.02rem;
+}
+
+.submit-button:hover {
+    background-color: rgb(43, 43, 134); 
+    color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+@media (pointer:coarse) {
+    body {
+        overflow: hidden;
+    }
+}
+
+.brush-size-container {
+    margin-top: 20px; 
+    display: flex; 
+    align-items: center; 
+    color: #666;
+  }
+  
+  .brush-size-container label {
+    font-size: 1rem; 
+    color: #ffffff; 
+    margin-right: 10px; 
+  }
+  
+  .brush-size-container input[type="range"] {
+    -webkit-appearance: none; 
+    width: 200px; 
+    height: 4px; 
+    background: #ffffff; 
+    border-radius: 10px; 
+    outline: none;
+  }
+  
+  .brush-size-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    background: #013281; 
+    border-radius: 50%; 
+    cursor: pointer; 
+  }
+  
+
+  
